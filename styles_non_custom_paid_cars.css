@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex; /* Center content vertically */
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center;
+}
+
+.page-title {
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 86, 179);
+    background-color: #ffffff; /* Optional: Set a background color for the title */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid, adjust as needed */
+    gap: 10px; /* Reduce the gap between images (adjust as needed) */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin: 0; /* Remove any margin around the grid */
+    padding: 0; /* Remove any padding around the grid */
+}
+
+.grid-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px; /* Add consistent padding between images */
+    padding-top: 0px;
+}
+
+.grid-item img {
+    max-width: 60%;
+    max-height: 60%;
+    width: 100%;
+}

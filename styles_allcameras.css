@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.page-title {
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 86, 179);
+    background-color: #ffffff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create a 4-column grid, adjust as needed */
+    gap: 20px;
+    /* padding: 20px; */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
